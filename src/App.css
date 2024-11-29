@@ -1,0 +1,42 @@
+/* Section Styling */
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  color: #fff;
+  transition: color 0.5s ease-in-out;
+}
+
+.section .content {
+  max-width: 800px;
+}
+
+.section:nth-child(odd) .content {
+  color: #222;
+}
+
+blockquote {
+  font-style: italic;
+  color: #ddd;
+  border-left: 4px solid #ff6347;
+  padding-left: 15px;
+  margin: 20px 0;
+}
+
+blockquote em {
+  display: block;
+  margin-top: 10px;
+  color: #ff6347;
+}
+
+a {
+  color: #ff6347;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
